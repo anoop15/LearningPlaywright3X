@@ -1,29 +1,29 @@
-let day = 2;
-// 1 - mon, 2 = tue
-switch (day) {
+let day=2;
+switch(day){
     case 1:
-        console.log('Mon');
+        console.log("Monday");
         break;
     case 2:
-        console.log('Tue');
-        let a = 10;
-        let b = 30;
-        console.log(a + b);
+        console.log("Tuesday"); 
         break;
     case 3:
-        console.log('Wed');
+        console.log("Wednesday");
         break;
     case 4:
-        console.log('Thur');
-        break;
+        console.log("Thursday");
+        break;  
     case 5:
-        console.log('Fri');
-        break;
-    case 6:
-        console.log('Sat');
-        break;
+        console.log("Friday");
+        break;  
+    case 6:            
+        console.log("Saturday");
+        break;  
     case 7:
-        console.log('Sun');
+        console.log("Sunday");
         break;
-    default:
-        console.log("No idea which day it is");
+    default:            
+
+        console.log("Invalid day");
+
+
+}
